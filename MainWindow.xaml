@@ -1,0 +1,15 @@
+﻿<Window x:Class="gamePhonk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gamePhonk"
+        mc:Ignorable="d"
+        Title="MainWindow" x:Name="win" Height="600" Width="900" ResizeMode="NoResize" WindowStyle="None" KeyDown="Window_KeyDown">
+    <Grid>
+        <Border BorderBrush="Red" BorderThickness="2">
+            <Canvas x:Name="map"/>
+        </Border>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Height="20" Width="20" Margin="5" Click="Button_Click"/>
+    </Grid>
+</Window>
